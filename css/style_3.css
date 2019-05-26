@@ -61,7 +61,13 @@ body{
   font-size: 20px;
 }
 
-/*Resize the wrap to see the search bar change!*/
+/*content-findParking*/
+.content-findParking{
+    position: relative;
+
+}
+
+
 .wrap{
   width: 100%;
     padding: 1%;
