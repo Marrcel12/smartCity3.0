@@ -1,0 +1,19 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;    
+}
+.AppStart{
+    height: 100vh;
+    width: 100vw;
+    background-color: darkslateblue;
+}
+.icon-start{
+    height: 20vh;
+    width: 10vw;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+}
