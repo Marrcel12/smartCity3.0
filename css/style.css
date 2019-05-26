@@ -33,13 +33,15 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'lato';
     list-style: none;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
 }
 
 body {
-    background-color: darkslateblue;
+    background-color:  #1E2D3E;
 }
 
 .wrapper {
@@ -50,7 +52,7 @@ body {
 }
 
 .mainMenu {
-    width: 250px;
+    width: 90vw;
     display: block;
     border-radius: 10px;
     overflow: hidden;
@@ -165,7 +167,7 @@ body {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background-color: #483D8B;
+    background-color: #1E2D3E;
     z-index: 1;
 }
 
@@ -178,6 +180,7 @@ body {
 }
 
 #signal {
+    filter: invert(.8);
     opacity: 0;
     position: absolute;
     width: 30vw;
@@ -188,6 +191,8 @@ body {
 }
 
 #car {
+        filter: invert(.8);
+
     opacity: 0;
     position: absolute;
     width: 30vw;
@@ -202,3 +207,24 @@ body {
 }
 
 /*Koniec loadera*/
+/*Pasek gorny*/
+#topbar{
+    width: 100vw;
+    height: 20vh;
+    background-color:#133359;
+}
+#topbar .bar{
+    text-align: right;
+    padding-right: 4vw;
+    padding-top:7vh;
+   
+}
+.bar span{
+    position: relative;
+    top: -.5vh;
+    font-size: 3vh;
+    text-transform: uppercase;
+}
+.bar i{font-size: 5vh;
+margin-left: 3vw;}
+/*Koniec paska gornego*/

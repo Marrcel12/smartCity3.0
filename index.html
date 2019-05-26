@@ -4,16 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <title>SmartCity3.0</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="modes/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="modes/all.css">
+    <link rel="stylesheet" href="modes/all.css">
     <script src="modes/bootstrap.min.js"></script>
+    
 </head>
 
 <body>
-    
-    <div id="loadContainer"><div id="loader"><div id="signal"></div><div id="car"></div></div></div>
-    
+    <div id="loadContainer">
+        <div id="loader">
+            <div id="signal"></div>
+            <div id="car"></div>
+        </div>
+    </div>
+    <div id="topbar">
+        <div class="bar">
+            <span>Parking 3.0 </span><i class="fas fa-parking"></i>
+        </div>
+    </div>
+    <div id="menu">
     <div class=" AppStart">
         <div class="wrapper">
             <ui class="mainMenu">
@@ -31,7 +42,6 @@
                         <a href="" class="text-center">Przeglądaj wolne miejsca</a>
                         <a href="" class="text-center">Zarezerwuj miejsce</a>
                     </div>
-
                 </li>
                 <li class="item" id="support">
                     <a href="#support" class="btn"><i class="fas fa-info"></i>Kontakt</a>
@@ -44,9 +54,7 @@
                 </li>
             </ui>
         </div>
-
-
-
+    </div>
     </div>
     <script src="script/script.js"></script>
     <script src="script/load.js"></script>
