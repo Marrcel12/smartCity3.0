@@ -1,0 +1,11 @@
+#parkings{
+    text-align: center;
+    margin-top: 100px;
+}
+.name{
+    font-size: 50px;
+}
+.number{
+    font-size: 60px;
+    margin-bottom: 100px;
+}
