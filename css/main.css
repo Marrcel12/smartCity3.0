@@ -84,10 +84,6 @@ body {
     animation: dis 3s;
 }
 
-.hidden {
-    display: none !important;
-}
-
 /*Koniec loadera*/
 /*Pasek gorny*/
 #topbar{
