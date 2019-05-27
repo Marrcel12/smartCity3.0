@@ -11,17 +11,50 @@
     <link rel="stylesheet" href="css/return.css">
     <link rel="stylesheet" href="modes/all.css">
     <script src="modes/bootstrap.min.js"></script>
-    
+    <style>
+        p {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        p:first-of-type {
+            margin-top: 100px;
+        }
+
+        p:nth-of-type(3) {
+            margin-top: 100px;
+        }
+
+        button {
+            position: relative;
+            top: calc(40vh - 10vw);
+            left: 10vw;
+            width: 80vw;
+            height: 20vw;
+            font-size: 80px;
+            border: 5px solid white;
+            border-radius: 5vw;
+            background-color: #1E2D3E;
+        }
+    </style>
 </head>
 
 <body>
     <div id="topbar">
-       <div class="return"><a href="findPlace.html"><img src="img/3-39459_arrow-left-arrow-transparent-background.png" alt=""></a></div>
+        <div class="return"><a href="findPlace.html"><img src="img/3-39459_arrow-left-arrow-transparent-background.png" alt=""></a></div>
         <div class="bar">
             <span>Parking 3.0 </span><i class="fas fa-parking"></i>
         </div>
     </div>
+    <p>Sugerowany parking:</p>
+    <p>Makieta</p>
+    <p>Wolnych miejsc</p>
+    <p class="places"></p>
+    <button>Rezerwuj!</button>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="script/script.js"></script>
+    <script src="script/place.js"></script>
+
 </body>
 
 </html>
