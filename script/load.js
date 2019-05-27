@@ -1,1 +1,1 @@
-    setTimeout(function(){ document.getElementById('loadContainer').className = 'hidden'; }, 3000);
+    setTimeout(function(){ window.location.href = "menu.html"; }, 3000);
