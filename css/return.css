@@ -1,0 +1,13 @@
+#topbar > .return{
+    position: relative;
+    top: 7.5vh;
+    width: 5vh;
+    height: 5vh;
+    filter: invert(1);
+    left: 30px;
+    float: left;
+}
+.return img{
+    width: 5vh;
+    height: 5vh;
+}
