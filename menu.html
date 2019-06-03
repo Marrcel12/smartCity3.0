@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>SmartCity3.0</title>
-    <link rel="shortcut icon" href="img/icon.png">
-
+    <link rel="shortcut icon" href="{{ url_for('static',filename='img/icon.png') }}">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="modes/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="modes/all.css">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='modes/bootstrap.min.css') }}">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='css/main.css') }}">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='modes/all.css') }}">
+    <script src="{{ url_for('static',filename='modes/bootstrap.min.js') }}"></script>
     <script src="modes/bootstrap.min.js"></script>
 
 </head>
@@ -22,13 +22,12 @@
     </div>
     <div id="menu">
         <ul>
-            <a href="account.html"><li><i class="fas fa-user-circle"></i> Moje konto</li></a>
-           <a href="findPlace.html"> <li><i class="fas fa-search-location"></i> Znajdź miejsce</li></a>
-           <a href="contact.html"> <li><i class="fas fa-id-card"></i> Kontakt</li></a>
-           <a href="about.html"> <li><i class="fas fa-info"></i> O aplikacji</li></a>
+            <a href="{{ url_for('account') }}"><li><i class="fas fa-user-circle"></i> Moje konto</li></a>
+           <a href="{{ url_for('findPlace') }}"> <li><i class="fas fa-search-location"></i> Znajdź miejsce</li></a>
+           <a href="{{ url_for('contact') }}"> <li><i class="fas fa-id-card"></i> Kontakt</li></a>
+           <a href="{{ url_for('about') }}"> <li><i class="fas fa-info"></i> O aplikacji</li></a>
         </ul>
     </div>
-    <script src="script/script.js"></script>
 </body>
 
 </html>

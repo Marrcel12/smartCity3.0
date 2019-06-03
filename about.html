@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>SmartCity3.0</title>
-    <link rel="shortcut icon" href="img/icon.png">
+    <link rel="shortcut icon" href="{{ url_for('static',filename='img/icon.png') }}">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="modes/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/return.css">
-    <link rel="stylesheet" href="modes/all.css">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='modes/bootstrap.min.css') }}">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='css/main.css') }}">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='modes/all.css') }}">
+    <script src="{{ url_for('static',filename='modes/bootstrap.min.js') }}"></script>
     <script src="modes/bootstrap.min.js"></script>
     
 </head>
@@ -25,7 +25,6 @@
         <p style="margin-top: 100px; font-size: 40px; font-weight: bold"> Smart City 3.0</p>
         <p style="margin-top: 20px; font-size: 30px;">by M&ampA </p>
     </div>
-    <script src="script/script.js"></script>
 </body>
 
 </html>

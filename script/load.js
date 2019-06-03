@@ -1,1 +1,2 @@
-    setTimeout(function(){ window.location.href = "menu.html"; }, 3000);
+   
+setTimeout(function(){ window.location.href = "{{ url_for('/menu') }}"; }, 3000);
